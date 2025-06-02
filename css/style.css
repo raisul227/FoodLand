@@ -4,6 +4,99 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #f0f0f0;
 }
+
+/* header section styles */
+
+.header{
+    position: sticky;
+    max-width: 1280px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 20px 30px;
+
+}
+.logo{
+    font-family: "Lobster";
+    color: #262626; /* Black color for the logo */
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.nav_links_desktop ul{
+    list-style: none;
+    
+}
+.sidebar{
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
+}
+.cross{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.sidebar ul{
+    list-style: none;
+    width: 100%;
+}
+.sidebar ul li{
+    margin: 10px 0;
+    width: 100%;
+}
+.sidebar ul li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.sidebar ul li a:hover{
+    background-color: #f0f0f0;
+}
+.nav_links_desktop ul{
+    display: flex;
+    gap: 20px;
+}
+.nav_links_desktop ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.social_links{
+    display: flex;
+    align-items: center ;
+}
+
+.social_links a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+/* hero section styles */
+

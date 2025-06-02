@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+    
+ .nav_links_desktop{
+        display: none;
+ }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        font-size: 18px;
+        margin-left: 20px;
+        color: #262626; /* Black color for the hamburger icon */
+    }
+}
